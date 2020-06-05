@@ -1,0 +1,34 @@
+standard
+***Report Model: uart_top***
+
+IO Statistics
+#IO                      41
+  #input                 12
+  #output                29
+  #inout                  0
+
+Gate Statistics
+#Basic gates           3948
+  #and                   48
+  #nand                   0
+  #or                     4
+  #nor                    0
+  #xor                    0
+  #xnor                   0
+  #buf                    0
+  #not                  132
+  #bufif1                 0
+  #MX21                3612
+  #FADD                   0
+  #DFF                  152
+  #LATCH                  0
+#MACRO_ADD              271
+#MACRO_EQ                16
+#MACRO_MUX              137
+
+Report Hierarchy Area:
++-------------------------------------------+
+|Instance |Module   |gates  |seq    |macros |
++-------------------------------------------+
+|top      |uart_top |3796   |152    |289    |
++-------------------------------------------+

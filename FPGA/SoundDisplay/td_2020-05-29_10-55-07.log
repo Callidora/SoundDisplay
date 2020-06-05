@@ -1,0 +1,119 @@
+============================================================
+   Tang Dynasty, V5.0.19080
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = E:/Program Files/Circuit/Digital Circuit/Anlogic/TD5.0.19080/bin/td.exe
+   Built at =   13:24:12 May  5 2020
+   Run by =     admin
+   Run Date =   Fri May 29 10:55:07 2020
+
+   Run on =     DESKTOP-9BM44F6
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------
+RUN-1001 :   Parameters  |  Settings  |  Default Values  
+RUN-1001 : --------------------------------------------
+RUN-1001 :   infer_add   |     on     |        on        
+RUN-1001 :   infer_fsm   |    off     |       off        
+RUN-1001 :   infer_mult  |     on     |        on        
+RUN-1001 :   infer_ram   |     on     |        on        
+RUN-1001 :   infer_reg   |     on     |        on        
+RUN-1001 :   infer_rom   |     on     |        on        
+RUN-1001 : --------------------------------------------
+HDL-1007 : Analyzing Verilog file 'E:/Program Files/Circuit/Digital Circuit/Anlogic/TD5.0.19080/arch/eagle_macro.v'
+HDL-1007 : Analyzing Verilog file 'E:/Program Files/Circuit/Digital Circuit/Anlogic/TD5.0.19080/arch/al3_lmacro.v'
+HDL-1007 : Analyzing Verilog file 'source/rtl/VGA_Demo.v'
+HDL-1007 : Analyzing Verilog file 'source/rtl/Clk_div.v'
+HDL-1007 : Analyzing Verilog file 'source/rtl/Driver.v'
+HDL-1007 : Analyzing Verilog file 'source/rtl/Display.v'
+HDL-1007 : Analyzing Verilog file 'al_ip/PLL.v'
+RUN-1002 : start command "elaborate -top VGA_Demo"
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------
+RUN-1001 :   Parameters  |  Settings  |  Default Values  
+RUN-1001 : --------------------------------------------
+RUN-1001 :   infer_add   |     on     |        on        
+RUN-1001 :   infer_fsm   |    off     |       off        
+RUN-1001 :   infer_mult  |     on     |        on        
+RUN-1001 :   infer_ram   |     on     |        on        
+RUN-1001 :   infer_reg   |     on     |        on        
+RUN-1001 :   infer_rom   |     on     |        on        
+RUN-1001 : --------------------------------------------
+RUN-1002 : start command "set_param rtl rtl_sim_model on"
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |   manual   |      manual      
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :      min_ripple_len     |     3      |        3         
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |     on     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------
+RUN-1001 :   Parameters  |  Settings  |  Default Values  
+RUN-1001 : --------------------------------------------
+RUN-1001 :   infer_add   |     on     |        on        
+RUN-1001 :   infer_fsm   |    off     |       off        
+RUN-1001 :   infer_mult  |     on     |        on        
+RUN-1001 :   infer_ram   |     on     |        on        
+RUN-1001 :   infer_reg   |     on     |        on        
+RUN-1001 :   infer_rom   |     on     |        on        
+RUN-1001 : --------------------------------------------
+HDL-1007 : compiling module 'VGA_Demo' in source/rtl/VGA_Demo.v(2)
+HDL-1007 : compiling module 'Clk_div' in source/rtl/Clk_div.v(2)
+HDL-5007 WARNING: port 'load_reg' is not connected on this instance in al_ip/PLL.v(73)
+HDL-1007 : compiling module 'PLL' in al_ip/PLL.v(22)
+HDL-1007 : compiling module 'EG_LOGIC_BUFG' in E:/Program Files/Circuit/Digital Circuit/Anlogic/TD5.0.19080/arch/eagle_macro.v(8)
+HDL-1007 : compiling module 'EG_PHY_PLL(FIN="24.000",REFCLK_DIV=2,FBCLK_DIV=9,CLKC0_DIV=9,CLKC0_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=8,GMC_GAIN=6,ICP_CURRENT=3,KVCO=6,LPF_RESISTOR=2,SYNC_ENABLE="DISABLE")' in E:/Program Files/Circuit/Digital Circuit/Anlogic/TD5.0.19080/arch/eagle_macro.v(945)
+HDL-5007 WARNING: input port 'load_reg' is not connected on this instance in al_ip/PLL.v(57)
+HDL-1007 : compiling module 'Driver' in source/rtl/Driver.v(11)
+HDL-5007 WARNING: expression size 32 truncated to fit in target size 12 in source/rtl/Driver.v(98)
+HDL-5007 WARNING: expression size 32 truncated to fit in target size 12 in source/rtl/Driver.v(99)
+HDL-1007 : compiling module 'Display' in source/rtl/Display.v(22)

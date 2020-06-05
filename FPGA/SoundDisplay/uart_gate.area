@@ -1,0 +1,38 @@
+standard
+***Report Model: uart_top***
+
+IO Statistics
+#IO                      41
+  #input                 12
+  #output                29
+  #inout                  0
+
+LUT Statistics
+#Total_luts           11873
+  #lut4                2368
+  #lut5                1413
+  #lut6                   0
+  #lut5_mx41              0
+  #lut4_alu1b          8092
+
+Utilization Statistics
+#lut                  11873   out of  19600   60.58%
+#reg                    149   out of  19600    0.76%
+#le                       0
+#dsp                      0   out of     29    0.00%
+#bram                     0   out of     64    0.00%
+  #bram9k                 0
+  #fifo9k                 0
+#bram32k                  0   out of     16    0.00%
+#pad                     41   out of    188   21.81%
+  #ireg                   0
+  #oreg                   1
+  #treg                   0
+#pll                      2   out of      4   50.00%
+
+Report Hierarchy Area:
++---------------------------------+
+|Instance |Module   |lut   |seq   |
++---------------------------------+
+|top      |uart_top |11873 |149   |
++---------------------------------+
