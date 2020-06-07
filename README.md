@@ -4,8 +4,12 @@ Anlogic FPGA generates snowflakes on the screen based on the sound information.
 
 
 
-
 Inspired by ssfx.
+
+
+
+This project is powered by VeriMake.www.verimake.com
+
 
 
 
