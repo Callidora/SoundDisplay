@@ -4,4 +4,4 @@ Anlu's FPGA generates snowflakes on the screen based on the sound information.
 Inspired by ssfx.
 How it works:
 The FPGA part:
-![imagine](C:\Users\admin\Desktop\1.bmp)
+![imagine](https://github.com/Callidora/SoundDisplay/blob/master/1.bmp)
