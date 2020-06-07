@@ -18,7 +18,7 @@ The Python part:
 
 
 
-![imagine](https://github.com/Callidora/SoundDisplay/blob/master/ .bmp)
+![imagine](https://github.com/Callidora/SoundDisplay/blob/master/picture1.bmp)
 
 
 
