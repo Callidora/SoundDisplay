@@ -27,7 +27,7 @@ The Python part:
 The FPGA part:
 
 
-![imagine](https://github.com/Callidora/SoundDisplay/blob/master/2.bmp)
+![imagine](https://github.com/Callidora/SoundDisplay/blob/master/picture2.bmp)
 
 
 
